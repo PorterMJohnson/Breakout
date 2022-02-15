@@ -189,7 +189,7 @@ public class Breakout extends GraphicsProgram {
                 ball.bounce();
                 //destroy brick
                 ((Brick) obj).doOuchie();
-                Brick(((Brick) obj).getFillColor(Color.yellow));
+                ((Brick) obj).setFillColor(((Brick) obj).getFillColor().darker());
                 if(((Brick) obj).getBrickHealth() <= 0){
                     this.remove(obj);
                     points += ((Brick) obj).brickPoints;
