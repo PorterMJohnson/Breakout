@@ -225,6 +225,7 @@ public class Breakout extends GraphicsProgram {
         objects();
     }
 
+    //fuck joe biden. 8===D
 
     public static void main(String[] args) {
         new Breakout().start();
